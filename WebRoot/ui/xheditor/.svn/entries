@@ -1,0 +1,61 @@
+8
+
+dir
+64
+http://192.168.2.252:8008/repos/3rd/gcjl/WebRoot/ui/xheditor
+http://192.168.2.252:8008/repos/3rd
+
+
+
+2012-03-07T08:01:12.374065Z
+49
+yzq
+
+
+svn:special svn:externals svn:needs-lock
+
+xheditor-1.1.9-zh-cn.min.js
+file
+
+
+
+
+2012-02-04T02:15:11.728000Z
+e8bee0ae2fd83080acda547dc175615a
+2012-03-07T08:01:12.374065Z
+49
+yzq
+
+xheditor_plugins
+dir
+
+xheditor-1.1.9-en.min.js
+file
+
+
+
+
+2012-02-04T02:15:11.688000Z
+e4614db86580e201bb7e0c1ace04ca95
+2012-03-07T08:01:12.374065Z
+49
+yzq
+
+xheditor_emot
+dir
+
+xheditor_skin
+dir
+
+xheditor-1.1.9-zh-tw.min.js
+file
+
+
+
+
+2012-02-04T02:15:11.758000Z
+d744e6eca28622ae208e3bfe6bbf7e51
+2012-03-07T08:01:12.374065Z
+49
+yzq
+

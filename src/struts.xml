@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <constant name="struts.devMode" value="true" />
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <package name="index" namespace="/" extends="struts-default">
+    	
+    
+        <action name="login" method="login" class="com.action.LoginAction">
+
+        </action>
+        
+         <action name="index" method="index" class="com.action.LoginAction">
+           <result  name="success">index.jsp</result>
+        </action>
+        
+        <action name="logout" method="logout" class="com.action.LoginAction">
+
+        </action>
+       
+        
+        
+        <action name="act_*_*" class="com.action.{1}Action" method="{2}">
+			<result>{1}/{2}.jsp</result>
+			<result name="forward">${url}</result>
+			<result name="redirect" type="redirect">${url}</result>
+			<result name="chain" type="chain">${url}</result>
+		</action>
+        <action name="to_*_*">
+			<result>{1}/{2}.jsp</result>
+		</action>
+    </package>
+    
+   
+    
+    
+</struts>

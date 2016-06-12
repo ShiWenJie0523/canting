@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="canting"
+  id="myeclipse.1430484975995"
+  context-root="/canting"
+  j2ee-spec="5.0"
+  archive="canting.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

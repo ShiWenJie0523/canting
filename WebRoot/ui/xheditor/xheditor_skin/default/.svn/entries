@@ -1,0 +1,43 @@
+8
+
+dir
+64
+http://192.168.2.252:8008/repos/3rd/gcjl/WebRoot/ui/xheditor/xheditor_skin/default
+http://192.168.2.252:8008/repos/3rd
+
+
+
+2012-03-07T08:01:12.374065Z
+49
+yzq
+
+
+svn:special svn:externals svn:needs-lock
+
+ui.css
+file
+
+
+
+
+2012-02-04T02:15:17.818000Z
+8a6c2fa6dfad6e94b3543cccd2e7961e
+2012-03-07T08:01:12.374065Z
+49
+yzq
+
+iframe.css
+file
+
+
+
+
+2012-02-04T02:15:17.538000Z
+b90c6292b6120030629b969c80875629
+2012-03-07T08:01:12.374065Z
+49
+yzq
+
+img
+dir
+

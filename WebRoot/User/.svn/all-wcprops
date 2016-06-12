@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/3rd/!svn/ver/58/gcjl/WebRoot/WEB-INF/jsp/User
+END
+pwd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/3rd/!svn/ver/49/gcjl/WebRoot/WEB-INF/jsp/User/pwd.jsp
+END
+userList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/3rd/!svn/ver/58/gcjl/WebRoot/WEB-INF/jsp/User/userList.jsp
+END
+addUserForm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/3rd/!svn/ver/58/gcjl/WebRoot/WEB-INF/jsp/User/addUserForm.jsp
+END
+findUser.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/3rd/!svn/ver/58/gcjl/WebRoot/WEB-INF/jsp/User/findUser.jsp
+END

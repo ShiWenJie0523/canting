@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+	<!-- oracle处理大文本clob需要添加的属性 -->
+	<property name="hibernate.connection.SetBigStringTryClob">
+		true
+	</property>
+	<property name="hibernate.proxool.pool_alias">DBPool</property>
+	<property name="hibernate.proxool.xml">proxool.xml</property>
+	<property name="hibernate.connection.provider_class">
+		org.hibernate.connection.ProxoolConnectionProvider
+	</property>
+	<property name="connection.driver_class">
+		com.mysql.jdbc.Driver
+	</property>
+	<property name="show_sql">true</property>
+	<property name="dialect">
+		org.hibernate.dialect.MySQLDialect
+	</property>
+	<property name="connection.autocommit">true</property>
+
+	<property name="hibernate.hbm2ddl.auto">update</property>
+	
+	
+	<mapping class="com.bean.UserBean" />
+	<mapping class="com.bean.Custom" />
+	<mapping class="com.bean.Goods" />
+	<mapping class="com.bean.GoodsCate" />
+	<mapping class="com.bean.DiningTable" />
+	<mapping class="com.bean.Bill" />
+	<mapping class="com.bean.BillGoods" />
+
+
+
+</session-factory>
+</hibernate-configuration>

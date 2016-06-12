@@ -1,0 +1,28 @@
+8
+
+dir
+42
+http://192.168.2.252:8008/repos/3rd/wuliu/WebRoot/js
+http://192.168.2.252:8008/repos/3rd
+
+
+
+2012-02-17T07:25:53.020537Z
+42
+yzq
+
+
+svn:special svn:externals svn:needs-lock
+
+dfd.js
+file
+
+
+
+
+2012-02-04T02:14:57.028000Z
+d41d8cd98f00b204e9800998ecf8427e
+2012-02-17T07:25:53.020537Z
+42
+yzq
+
